@@ -1,0 +1,93 @@
+body {
+	padding-top: 33px;
+}
+
+.gallery-container,
+.table-container {
+	width: 100%;
+	max-width: 1200px;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	padding: 20px;
+	box-shadow: 2px 2px 5px #444;
+	margin: 5% auto 5% auto;
+}
+
+.form-container {
+	width: 100%;
+	max-width: 1200px;
+	flex-flow: column;
+	align-items: center;
+	padding: 20px;
+	box-shadow: 2px 2px 5px #444;
+	margin: 5% auto 5% auto;
+}
+
+img {
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
+.jumbotron {
+	background: url('https://cdn.promodj.com/users-heads/00/00/02/52/70/blog_header_image-2000x500-2000x500_h6fc7.jpg');
+	background-size:cover;
+}
+
+.jumbotron h1,
+.jumbotron small {
+	color: #000000;
+	margin-bottom:50px;
+}
+
+.jumbotron>button {
+	margin: 15px;
+}
+
+.gallery-container h2, 
+.table-container h2,
+.progress-bars h2  {
+ 	margin: 20px 0 30px;
+}
+
+.table-container>table>thead>tr th,
+.panel-title,
+.progress-bars h2 {
+	text-align:center;
+}
+
+.media-left img {
+	max-width: 64px;
+}
+
+ul.media-list,
+.progress-bars  {
+	width: 100%;
+	max-width: 1200px;
+	flex-flow: column;
+	align-items: center;
+	padding: 20px;
+	box-shadow: 2px 2px 5px #444;
+	margin: 5% auto 5% auto;
+}
+
+.section-modal {
+  text-align:center;
+  margin-top: 50px;
+}
+
+.dropdown {
+	margin: 7px;
+}
+
+.slogan {
+	padding: 15px;
+	border-radius: 10px;
+	text-align: center;
+	background: rgba(255,255,255, 0.1)
+}
+
+.tab-content h3 {
+	text-align:center;
+}
